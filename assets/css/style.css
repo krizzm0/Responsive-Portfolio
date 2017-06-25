@@ -10,7 +10,7 @@ body {
 h2 {
 	font-size: 30px;
 	color: #00aba0;
-	border-bottom: 2px solid #e2e0db;
+	border-bottom: 2px solid #cccccc;
 	padding-bottom: 20px;
 	margin: auto;
 }
@@ -19,7 +19,7 @@ h3 {
 	color: #00aba0;
 	font-size: 20px;
 	text-align: center;
-	border-bottom: 2px solid #e2e0db;
+	border-bottom: 2px solid #cccccc;
 	padding: 20px;
 	padding-bottom: 20px;
 	margin-top: 10px;
@@ -58,20 +58,19 @@ h2, h3 {
 /* Main Header */
 header {
 	width: 100%;
-	border-bottom: 3px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
 	background-color: #fff;
 }
 
-#headerContainer {
+.container {
 	width: 100%;
 	max-width: 960px;
-	margin: 0 auto;
-	position: relative;
+	margin: auto;
 }
 
 #logo {
 	text-decoration: none;
-	height: 90px;
+	height: 70px;
 	width: 250px;
 	display: inline-block;
 	font-family: Georgia, Times, "Times New Roman", serif;
@@ -80,13 +79,13 @@ header {
 	color: #fff;
 	background: #4aaaa5;
 	text-align: center;
-	line-height: 90px;
+	line-height: 70px;
 }
 
 /* Navigation */
 nav {
 	float: right;
-	line-height: 90px;
+	line-height: 70px;
 }
 
 nav a {
@@ -104,19 +103,18 @@ nav a:first-child {
 }
 
 /* Main Body */
-.mainContainer {
-	width: 960px;
-	margin: 30px auto;
-	position: relative;
+#mainContainer {
+	margin-top: 30px;
 }
 
 section {
-	width: 650px;
-	border: 2px solid #e6e4df;
+	float: left;
+	max-width: 650px;
+	border: 1px solid #ddd;
 	background-color: #fff;
 	padding: 20px;
 	padding-bottom: 15px;
-	float: left;
+	margin-bottom: 30px;
 }
 
 #profilePic {
@@ -126,17 +124,18 @@ section {
 }
 
 section p {
-	color: #8b8d8b;
+	color: #777;
 	margin-top: 15px;
-	line-height: 25px;
+	line-height: 27px;
 	text-align: justify;
 }
 
 /* Aside */
 aside {
-	border: 2px solid #e6e4df;
+	border: 1px solid #ddd;
 	float: right;
 	background-color: #fff;
+	margin-bottom: 20px;
 }
 
 aside p {
@@ -148,18 +147,11 @@ aside p {
 /* Footer */
 footer {
 	background-color: #666460;
-	height: 100px;
-	border-top: 10px solid #00aba0;
-	position: relative;
-}
-
-#footer {
+	border-top: 8px solid #00aba0;
 	text-align: center;
-	color: #c2c0b3;
+	color: #ccc;
 	font-size: 10px;
-	position: absolute;
-	top: 50%;
-	right: 50%;
+	padding: 30px;
 }
 
 /* Portfolio Page */
