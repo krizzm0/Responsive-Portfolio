@@ -83,7 +83,7 @@ header {
 	background-color: #fff;
 }
 
-nav {
+/*nav {
 	display: inline-block;
 	position: absolute;
 	right: 0;
@@ -99,7 +99,7 @@ nav ul li {
 nav ul li a {
 	text-decoration: none;
 	color: #c2c0b3;
-}
+}*/
 
 #contactNav {
 	margin-right: 0px;
