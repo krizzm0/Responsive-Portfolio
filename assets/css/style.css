@@ -237,6 +237,8 @@ input[type=submit] {
 }
 
 /* Media Queries */
+
+/* Max Width 980px (Tablets) */
 @media screen and (max-width: 980px) {
 	.container {
 		max-width: 650px;
@@ -257,5 +259,33 @@ input[type=submit] {
 	/* Portfolio */
 	.projects:nth-of-type(even) {
 	float: left;
+	}
+}
+
+/* Max Width 768px (Mobile Landscape Mode) */
+@media screen and (max-width: 768px) {
+	section {
+		max-width: 100%;
+		float: none;
+	}
+	
+	section h1 {
+		text-align: center;
+	}
+
+	#profilePic {
+		float: left;
+		width: 50%;
+		margin-right: 20px;
+	}
+
+	aside {
+		float: none;
+		margin-top: 20px;
+	}
+
+/* Portfolio */
+	.projects:nth-of-type(even) {
+	float: right;
 	}
 }
