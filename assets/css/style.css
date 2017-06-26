@@ -116,6 +116,7 @@ h1 {
 	float: left;
 	margin-top: 20px;
 	margin-right: 20px;
+	width: 40%;
 }
 
 section p {
@@ -235,3 +236,20 @@ input[type=submit] {
 }
 
 /* Media Queries */
+@media screen and (max-width: 980px) {
+	.container {
+		max-width: 768px;
+	}
+
+	#profilePic {
+		float: none;
+		display: block;
+		margin: auto;
+		margin-top: 20px;
+		width: 90%;
+	}
+
+	section {
+		max-width: 60%;
+	}
+}
