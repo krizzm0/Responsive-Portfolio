@@ -238,7 +238,7 @@ input[type=submit] {
 
 /* Media Queries */
 
-/* Max Width 980px (Tablets) */
+/* Max Width 980px (Desktops) */
 @media screen and (max-width: 980px) {
 	.container {
 		max-width: 650px;
@@ -262,7 +262,7 @@ input[type=submit] {
 	}
 }
 
-/* Max Width 768px (Mobile Landscape Mode) */
+/* Max Width 768px (Tablets) */
 @media screen and (max-width: 768px) {
 	section {
 		max-width: 100%;
@@ -287,5 +287,43 @@ input[type=submit] {
 /* Portfolio */
 	.projects:nth-of-type(even) {
 	float: right;
+	}
+}
+
+/* Max Width 640px (Mobile Landscape Mode) */
+@media screen and (max-width: 640px) {
+	#logo {
+		display: block;
+		width: 100%;
+	}
+
+	nav {
+		float: none;
+		margin: auto;
+		width: 70%;
+	}
+
+	nav a {
+		font-size: 18px;
+		padding-left: 30px;
+		margin-left: 30px;
+	}
+
+	aside a {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	/* Portfolio */
+	.projects {
+		float: none;
+		display: block;
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	.projects:nth-of-type(even) {
+	float: none;
+	display: block;
 	}
 }
